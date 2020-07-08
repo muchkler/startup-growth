@@ -1,0 +1,142 @@
+.split{
+    height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left{
+    left: 0;
+  background-color: #253031;
+  padding: 40px;
+    
+}
+
+.right{
+    right: 0;
+  background-color:#01BAEF;
+  background-image: url(images/Patterns.png);
+}
+
+.intro-text{
+    width: 655px;
+}
+
+.coming-soon{
+    font-size: 16px;
+    color: #728E91;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family: 'Signika';
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.intro-desc{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.email-input{
+    padding: 20px 217px 20px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.email-input::placeholder{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: #828282;
+}
+
+.formEmailButton{
+    padding: 20px 28px 20px 28px;
+    border-radius: 5px;
+    color: white;
+    background-color: #03A678;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+
+.no-spam{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: #728E91;
+}
+
+.centered{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-10%, -20%);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .left{
+        padding: 0px;
+    }
+    
+    .right{
+        display: none;
+    }
+
+    .split{
+        height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+    }
+
+    .intro-text{
+        width: 350px;
+        margin: 0px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .intro-desc{
+        font-size: 18px;
+    }
+
+    .email-input{
+        padding: 26px 123px 26px 20px;
+    }
+
+    .formEmailButton{
+        margin-top: 20px;
+        padding: 25px 143px 25px 143px;
+        text-align: center;
+    }
+
+    .centered{
+        position: relative;
+        padding: 0px 20px 0px 15px;
+        top: 50%;
+    }
+
+}
